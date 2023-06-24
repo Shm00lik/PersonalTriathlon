@@ -17,7 +17,7 @@ const darkTheme = createTheme({
 });
 
 function App() {
-    const [user, setUser] = useState();
+    const [user, setUser] = useState({ name: "Yoav", id: "123456789" });
 
     const [navBarValue, setNavBarValue] = useState("history");
 
